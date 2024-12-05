@@ -1,0 +1,33 @@
+_id: req_dfcc144c6eb9488d9fc302b5c85d8833
+type: Request
+parentId: fld_749893ea2efc403cac774421c5530270
+modified: 1729609396480
+created: 1724885932957
+url: "{{ _.base_url }}/mdr/store/auth/register"
+name: createUser
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "qateam@heapstash.net",
+    	"name": "qateam@heapstash.net",
+    	"lastname": "qaLastname",
+    	"password": "Cim_Qateam1"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  disabled: true
+metaSortKey: -1724885999467
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

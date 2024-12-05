@@ -1,0 +1,35 @@
+_id: req_d4b6a261f597409b8bd8db1fa122a17f
+type: Request
+parentId: fld_db1184892e9b44debceac00f17e24442
+modified: 1678298154294
+created: 1678293417643
+url: "{{ _.base_path }}/ccadmin/v1/products?sort=listPrice,displayName"
+name: getOrders products
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_f3a3b81b5df04d548e507515ab6b471d
+    name: q
+    value: profiled eq ""
+    description: ""
+    disabled: true
+  - id: pair_92db0808bc524991819dc35cf16f642a
+    name: queryFormat
+    value: SCIM
+    description: ""
+    disabled: true
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_b8c9e67f24054d74b279f378c549ac3e',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'always', 60 %}"
+  prefix: Bearer
+metaSortKey: -1677180945214.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

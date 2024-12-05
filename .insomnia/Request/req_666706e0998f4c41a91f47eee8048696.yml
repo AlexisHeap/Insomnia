@@ -1,0 +1,34 @@
+_id: req_666706e0998f4c41a91f47eee8048696
+type: Request
+parentId: fld_f3a865c417f1464eb12ddf06e079f554
+modified: 1728591436874
+created: 1728326796238
+url: "{{ _.base_url }}/mdr/store/predetermined-lists/1/predetermined-products"
+name: predetermined list by list_id
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "image": "/resources/images/Imagen-beneficios.png",
+      "product_name": "Casco",
+      "sku": "3",
+      "price": "199.00",
+      "category_name": "Outdoor Adventure"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzI4NjQwNDI4LCJpYXQiOjE3Mjg1ODA0MjgsImp0aSI6IjRhZjQxYWIwNmI1YTRmOGI5MGZhYzU1NTQ4NGQ4YTEyIiwidXNlcl9pZCI6OX0.VU3nPlrotIpTsSDcyHFFiueO3BlCHCq-vGWrO-ObsWU
+metaSortKey: -1683203819242.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,32 @@
+_id: req_b8c9e67f24054d74b279f378c549ac3e
+type: Request
+parentId: fld_779cce0c4b2d4293a752cd982eca457e
+modified: 1677540570959
+created: 1677173652800
+url: "{{ _.base_path }}/ccadmin/v1/login"
+name: App
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_11fa68689f0a45b8aaaab0498d3ef312
+      name: grant_type
+      value: client_credentials
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjNWU0NDdjZS0wMDg1LTRhNDEtYmRhNi1kNTkwMDZiYjZkZTIiLCJpc3MiOiJhcHBsaWNhdGlvbkF1dGgiLCJleHAiOjE2NTExNjEyOTUsImlhdCI6MTYxOTYyNTI5NX0=.8tTzcqC2MGAhzXZg9F/CCOafz+ogdtjfFIymdmZIp98=
+  prefix: Bearer
+metaSortKey: -1677183284327.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

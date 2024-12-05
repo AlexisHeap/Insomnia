@@ -1,0 +1,25 @@
+_id: req_2762f9a91821466591ce3b65663a5f6a
+type: Request
+parentId: fld_6c6399fecf3f4e34b2c37933b3ebfa7d
+modified: 1733330307427
+created: 1724882988011
+url: "{{base_url}}/mdr/store/eventConfigurations"
+name: getEventConfigurations
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  prefix: Bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTczMzMyODQzNiwianRpIjoiNWM0NmUyZTAtZjk1NS00YjE2LTliYTktY2RkMzVmODk1OTNjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6MTUwLCJuYmYiOjE3MzMzMjg0MzYsImNzcmYiOiI5MTBjYmQ4MS0zZDc4LTQ5MjUtODFhZC02OWRkOWYxMDkxMDYiLCJleHAiOjE3MzQwNDg0MzZ9.GYVBUrqbRkthhydgKHAm8-y1VzxX-GZqNFep8g8hhXs
+  disabled: false
+metaSortKey: -1724886064502.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

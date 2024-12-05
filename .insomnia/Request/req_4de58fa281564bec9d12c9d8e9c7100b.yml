@@ -1,0 +1,30 @@
+_id: req_4de58fa281564bec9d12c9d8e9c7100b
+type: Request
+parentId: fld_785f991eb4af4d17a484f482bcbd0952
+modified: 1728664073670
+created: 1728596767294
+url: "{{ _.base_url }}/mdr/store/predetermined-lists/1/predetermined-products/14"
+name: update one value of predetermined lists
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "category_name": "Categoría Deportes"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzI4NjQ1ODA1LCJpYXQiOjE3Mjg1ODU4MDUsImp0aSI6IjZiOTExMzU4ZmJiODQ4MDA4OGVhMTYxYzNhNmRmYjMzIiwidXNlcl9pZCI6OX0.wHxn-c5hLYoLnrVK_JWPJSvpNIBjU1AmKTQG5fDtJUY
+metaSortKey: -1728596767294
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

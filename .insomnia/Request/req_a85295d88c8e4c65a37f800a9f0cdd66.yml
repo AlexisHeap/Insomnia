@@ -1,0 +1,24 @@
+_id: req_a85295d88c8e4c65a37f800a9f0cdd66
+type: Request
+parentId: fld_6c6399fecf3f4e34b2c37933b3ebfa7d
+modified: 1724886238130
+created: 1724886204401
+url: "{{base_url}}/mdr/store/order"
+name: getOrder
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: Bearer
+  prefix: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqb2huZG9lQG1haWwuY29tIiwiaWF0IjoxNzI0NzkyMTc5LCJleHAiOjE3MjQ4MjgxNzl9.lfDO0tsfqg4PFmVeuiZGFZy1WBYNtnI129lYArD0hU0
+metaSortKey: -1724886204401
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

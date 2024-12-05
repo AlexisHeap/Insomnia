@@ -1,0 +1,51 @@
+_id: req_8331e61299294882b8641cf55c3fc3f5
+type: Request
+parentId: fld_785f991eb4af4d17a484f482bcbd0952
+modified: 1729625710611
+created: 1728321895209
+url: "{{ _.base_url }}/mdr/store/predetermined-lists"
+name: predetermined-lists
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"listName": "Summer Gifts",
+    	"image": "https://example.com/image.png",
+    	"eventTypes": [
+    		"Birthday",
+    		"Anniversary"
+    	],
+    	"predeterminedProducts": [
+    		{
+    			"image": "https://example.com/product1.png",
+    			"productName": "Product 1",
+    			"sku": "SKU123",
+    			"price": 50.00,
+    			"categoryName": "Category11"
+    		},
+    		{
+    			"image": "https://example.com/product2.png",
+    			"productName": "Product 2",
+    			"sku": "SKU456",
+    			"price": 100.00,
+    			"categoryName": "Category2"
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzI4NjQwNDI4LCJpYXQiOjE3Mjg1ODA0MjgsImp0aSI6IjRhZjQxYWIwNmI1YTRmOGI5MGZhYzU1NTQ4NGQ4YTEyIiwidXNlcl9pZCI6OX0.VU3nPlrotIpTsSDcyHFFiueO3BlCHCq-vGWrO-ObsWU
+metaSortKey: -1689145274666.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

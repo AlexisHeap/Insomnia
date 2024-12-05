@@ -1,0 +1,33 @@
+_id: req_531472b23be948c3843dcf750be196f2
+type: Request
+parentId: fld_db59f088bb8c4adcab90388cc63cc3cf
+modified: 1677263186795
+created: 1677262363894
+url: "{{ _.base_path }}/ccadmin/v1/collections"
+name: getCollections
+description: ""
+method: GET
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_2d1b9246134e41bb8a033abfc89822e2
+      name: grant_type
+      value: client_credentailes
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_b8c9e67f24054d74b279f378c549ac3e',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'always', 60 %}"
+  prefix: Bearer
+metaSortKey: -1677262363894
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

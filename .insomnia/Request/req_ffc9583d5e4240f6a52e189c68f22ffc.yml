@@ -1,0 +1,23 @@
+_id: req_ffc9583d5e4240f6a52e189c68f22ffc
+type: Request
+parentId: fld_785f991eb4af4d17a484f482bcbd0952
+modified: 1728595916041
+created: 1728400542294
+url: "{{ _.base_url }}/mdr/store/predetermined-lists/42"
+name: delete predetermined list
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzI4NDAxMjA0LCJpYXQiOjE3Mjg0MDA5MDQsImp0aSI6IjE4ZWEyYjVlZjdhYzQ0YjVhY2Y2ODQ5MjUyNzBlYmRhIiwidXNlcl9pZCI6NDR9.kRsDnKxuNoLg9bpfkrVZoY0k7U4IXfaI4B2P-gULA6M
+metaSortKey: -1689145274566.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

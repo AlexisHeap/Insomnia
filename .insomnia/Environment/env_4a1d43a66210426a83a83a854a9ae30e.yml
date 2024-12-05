@@ -1,0 +1,14 @@
+_id: env_4a1d43a66210426a83a83a854a9ae30e
+type: Environment
+parentId: env_672286288074ed2b6552e7e83d5c5082addfa749
+modified: 1729453262568
+created: 1724883182611
+name: dev
+data:
+  base_url: https://dev-mdr.heapstash.cloud
+dataPropertyOrder:
+  "&":
+    - base_url
+color: null
+isPrivate: false
+metaSortKey: 1724883182611

@@ -1,0 +1,45 @@
+_id: req_4b96aab9dee148fa9536959e74aee522
+type: Request
+parentId: fld_785f991eb4af4d17a484f482bcbd0952
+modified: 1729651594256
+created: 1729651371866
+url: "{{ _.base_url }}/mdr/store/events/30/add-multiple-gifts"
+name: Add multiple gifts
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    [
+        {
+            "sku": "SKU123",
+            "name": "Product 1",
+            "price": "50.00",
+            "isAvailable": true,
+            "type": "defaultType",
+            "quantity": 1
+        },
+        {
+            "sku": "SKU456",
+            "name": "Product 2",
+            "price": "100.00",
+            "isAvailable": true,
+            "type": "defaultType",
+            "quantity": 1
+        }
+    ]
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcyOTYwOTQxMiwianRpIjoiNjFhNmFiYjgtMGUxYy00NDNmLTljODAtZmYyNjc1NzMxYmE2IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6MywibmJmIjoxNzI5NjA5NDEyLCJjc3JmIjoiZmU0NzgyNDMtZWJhMS00N2YxLTg4ZGMtZTljZDE1MjM1ZDM3IiwiZXhwIjoxNzI5NjgxNDEyfQ.70olmK5CSmnNRlfiQ1x-pTj-iBMRd-eW_aMYQzGObD8
+metaSortKey: -1708871021005.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

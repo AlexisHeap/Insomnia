@@ -1,0 +1,23 @@
+_id: req_a5747284b27d4e0eae29b68fe116e39a
+type: Request
+parentId: fld_785f991eb4af4d17a484f482bcbd0952
+modified: 1729617396908
+created: 1728321584201
+url: "{{ _.base_url }}/mdr/store/predetermined-lists"
+name: predetermined-lists
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcyOTYwOTQxMiwianRpIjoiNjFhNmFiYjgtMGUxYy00NDNmLTljODAtZmYyNjc1NzMxYmE2IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6MywibmJmIjoxNzI5NjA5NDEyLCJjc3JmIjoiZmU0NzgyNDMtZWJhMS00N2YxLTg4ZGMtZTljZDE1MjM1ZDM3IiwiZXhwIjoxNzI5NjgxNDEyfQ.70olmK5CSmnNRlfiQ1x-pTj-iBMRd-eW_aMYQzGObD8
+metaSortKey: -1689145274716.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

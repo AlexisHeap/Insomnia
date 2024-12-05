@@ -1,0 +1,14 @@
+_id: env_672286288074ed2b6552e7e83d5c5082addfa749
+type: Environment
+parentId: wrk_bafef4ba55b341bebfde40883db7caa0
+modified: 1724883060389
+created: 1677163290438
+name: Base Environment
+data:
+  base_url: http://dev.mdr.heapstash.cloud:8443
+dataPropertyOrder:
+  "&":
+    - base_url
+color: null
+isPrivate: false
+metaSortKey: 1677163290438

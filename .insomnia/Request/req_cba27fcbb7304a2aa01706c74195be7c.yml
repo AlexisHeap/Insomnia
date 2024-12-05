@@ -1,0 +1,109 @@
+_id: req_cba27fcbb7304a2aa01706c74195be7c
+type: Request
+parentId: fld_e3fdf11e7c6f49268b1f550882995d29
+modified: 1732904362699
+created: 1728664201443
+url: "{{ _.base_url }}/mdr/store/events"
+name: Events
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    		{
+    			"acceptTermsAndConditions": true,
+    			"categoryId": 2,
+    			"celebratedOwners": [
+    				{
+    					"address": {
+    						"addressNickname": "Alexis Ibarra",
+    						"betweenStreets": "",
+    						"cellphone": "6142244507",
+    						"city": "Chihuahua",
+    						"exteriorNumber": "",
+    						"id": 262,
+    						"interiorNumber": "",
+    						"lastname": "Torres",
+    						"maternalLastname": "Lopez",
+    						"municipality": "Chihuahua",
+    						"name": "Juan Manuel",
+    						"neighborhood": "Lomas del Sol II",
+    						"occId": "266729723",
+    						"phone": "6142244507",
+    						"postalCode": "31110",
+    						"state": "CHH",
+    						"street": "Independencia"
+    					},
+    					"alias": "",
+    					"dob": "08/09/1991",
+    					"id": 89,
+    					"isAdmin": false,
+    					"lastname": "Equipo",
+    					"maternalLastname": "prueba",
+    					"name": "QA",
+    					"phone": "",
+    					"role": "Organizador",
+    					"sequence": 1,
+    					"title": "Sr."
+    				},
+    				{
+    					"address": {
+    						"addressNickname": "",
+    						"betweenStreets": "",
+    						"cellphone": "",
+    						"city": "",
+    						"exteriorNumber": "",
+    						"id": 263,
+    						"interiorNumber": "",
+    						"lastname": "",
+    						"maternalLastname": "",
+    						"municipality": "",
+    						"name": "",
+    						"neighborhood": "",
+    						"occId": "",
+    						"phone": "",
+    						"postalCode": "",
+    						"state": "",
+    						"street": ""
+    					},
+    					"alias": "",
+    					"dob": "1990-07-17",
+    					"id": 90,
+    					"isAdmin": false,
+    					"lastname": "prueba",
+    					"maternalLastname": "prueba",
+    					"name": "prueba",
+    					"phone": "",
+    					"role": "",
+    					"sequence": 3,
+    					"title": "Sra."
+    				}
+    			],
+    			"coadministratorId": null,
+    			"date": "2024-10-31",
+    			"deliveryType": "",
+    			"eventName": "prueba",
+    			"eventType": "Cumpleaños",
+    			"id": 45,
+    			"image": "https://dev-mdr.heapstash.cloud/resources/icons/no-photo.svg",
+    			"nonCelebratedOwners": [],
+    			"plannerId": null,
+    			"postalCode": "35000",
+    			"state": "DUR",
+    			"store": "cimacoCuatroCaminos"
+    		}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTczMjkwNDMxNCwianRpIjoiYjQ4OGU1ZjMtZWRiOC00YTk1LWFiOTEtNjkzMjNkYmJmYmNjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6MTIyLCJuYmYiOjE3MzI5MDQzMTQsImNzcmYiOiI5ZDAyZDI2ZC1mZGU5LTRjZmMtOTNjYi0yMmE5Njk0MjczMWYiLCJleHAiOjE3MzM2MjQzMTR9.C4VourzJb6m4FapBXI46RLpZ9jtJ4DYbG-ls_OQoNdM
+metaSortKey: -1728664201443
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

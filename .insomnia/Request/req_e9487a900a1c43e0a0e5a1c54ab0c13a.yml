@@ -1,0 +1,23 @@
+_id: req_e9487a900a1c43e0a0e5a1c54ab0c13a
+type: Request
+parentId: fld_785f991eb4af4d17a484f482bcbd0952
+modified: 1732555744451
+created: 1728324179689
+url: "{{ _.base_url }}/mdr/store/predetermined-lists/37"
+name: GET all predetermined list by id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzI4Mzk5NTYyLCJpYXQiOjE3MjgzOTkyNjIsImp0aSI6IjQxYTYwOTUyZWJhMDRiZDk5NzI0YTA2MGE3ZmZmNjZjIiwidXNlcl9pZCI6NDR9.y3RT94aWDBo1bklL73Q6mkEgOsJjPurN9rj7zUVArpI
+metaSortKey: -1689145274691.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

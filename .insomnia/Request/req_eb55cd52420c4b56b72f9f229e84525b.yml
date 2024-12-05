@@ -1,0 +1,27 @@
+_id: req_eb55cd52420c4b56b72f9f229e84525b
+type: Request
+parentId: wrk_bafef4ba55b341bebfde40883db7caa0
+modified: 1728674201290
+created: 1728674172842
+url: "{{ _.base_url }}/mdr/store/suggested-lists"
+name: New Request
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzI4NzI0MTQzLCJpYXQiOjE3Mjg2NjQxNDMsImp0aSI6ImMwYzhmNDgyM2JkMTQ4NWNiZGMyYTlhMzFlNWE1ODQ3IiwidXNlcl9pZCI6OX0.6XuhQYdQoH1lgoUxZpU_KQzpsDTtVXtfu-CwUzUQGhg
+metaSortKey: -1728674172842
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

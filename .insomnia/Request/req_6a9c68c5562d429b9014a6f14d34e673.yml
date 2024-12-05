@@ -1,0 +1,23 @@
+_id: req_6a9c68c5562d429b9014a6f14d34e673
+type: Request
+parentId: fld_120a1aa71f284426b35c8fc50f54fc93
+modified: 1732047337906
+created: 1731435545287
+url: "{{ _.base_url }}/mdr/store/events/954/gifts"
+name: Gifts
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTczMjA0NzMyNCwianRpIjoiYjljMmZhMDEtY2U1ZS00ZWE3LWI1MjctOGVjMGE2Y2NiZjQ4IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6MTUwLCJuYmYiOjE3MzIwNDczMjQsImNzcmYiOiJkMjEzM2IzZi03NDc2LTQ5MTktOTY0Zi02ODU3NDc3MWQ5NmEiLCJleHAiOjE3MzI3NjczMjR9.nJS4NM8qqfkEg6kJVoQNTVsHpgfrhLEc_YQEJx4Z1-o
+metaSortKey: -1731435545288
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

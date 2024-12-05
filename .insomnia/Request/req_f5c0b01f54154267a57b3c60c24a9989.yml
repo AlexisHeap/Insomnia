@@ -1,0 +1,29 @@
+_id: req_f5c0b01f54154267a57b3c60c24a9989
+type: Request
+parentId: fld_749893ea2efc403cac774421c5530270
+modified: 1733411294091
+created: 1724885999517
+url: "{{base_url}}/mdr/store/auth/login"
+name: login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "email": "moralopezrita@gmail.com",
+      "password": "HSpw159testD"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1724885999517
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
